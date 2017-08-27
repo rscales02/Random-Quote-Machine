@@ -1,0 +1,14 @@
+* {
+	border-width: 1px;
+	border-style: solid;
+}
+
+.container {
+	max-width: 400px;
+	margin-top: 100px;
+	
+}
+
+#cite {
+	text-align: right;
+}
