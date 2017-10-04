@@ -15,7 +15,7 @@ $(document).ready(function() {
             },
             success: function(response) {
             	quote = response.quoteText;
-            	$("#quote").text(quote)
+            	$("#quote").text(quote);
             	author = response.quoteAuthor;
             	if (author) {
             		$("#author").text("-" + author);
